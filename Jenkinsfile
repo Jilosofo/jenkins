@@ -5,7 +5,7 @@ pipeline {
 
     stage('Inicial echo ') {
       steps {
-        echo "iniciando a pipeline"
+        echo "iniciando a pipeline Produção"
       }
     }
     stage('build 2') {
