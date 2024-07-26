@@ -8,5 +8,11 @@ pipeline {
         echo "iniciando a pipeline"
       }
     }
+    stage('build 2') {
+      steps {
+        echo "iniciando a pipeline parte 2"
+      }
+    }  
+
   }
 } 
